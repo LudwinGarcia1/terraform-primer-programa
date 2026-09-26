@@ -8,3 +8,8 @@ terraform {
 
   required_version = ">= 1.0.0"
 }
+
+resource "random_string" "suffix" {
+  length  = 16
+  special = true
+}
