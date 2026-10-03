@@ -18,6 +18,7 @@ Se usa el proveedor `hashicorp/random` para generar una cadena aleatoria, por lo
 | `.terraform.lock.hcl` | Fija la versión del proveedor que se usó (`hashicorp/random` v3.9.1) |
 | `.gitignore` | Deja fuera del repositorio `.terraform/` y los archivos de estado |
 | `docs/evidencias/` | Capturas de pantalla de cada paso de la práctica |
+| `docs/Reporte_Primer_Programa_Terraform.docx` | Reporte de evidencias en Word: proceso, capturas y resultados |
 
 ## Ejecución
 
@@ -38,6 +39,8 @@ atributo `result`.
 
 ## Evidencias
 
+El reporte completo está en [`docs/Reporte_Primer_Programa_Terraform.docx`](docs/Reporte_Primer_Programa_Terraform.docx).
+
 Capturas tomadas al ejecutar la práctica en Windows 11 con PowerShell:
 
 | Paso | Captura |
@@ -52,3 +55,4 @@ Capturas tomadas al ejecutar la práctica en Windows 11 con PowerShell:
 | `terraform state show` | [08-state-show.png](docs/evidencias/08-state-show.png) |
 | Contenido de `terraform.tfstate` | [09-tfstate.png](docs/evidencias/09-tfstate.png) |
 | Segundo `terraform plan` (sin cambios) | [10-plan-again.png](docs/evidencias/10-plan-again.png) |
+| Historial de commits (`git log`) | [11-git-log.png](docs/evidencias/11-git-log.png) |
